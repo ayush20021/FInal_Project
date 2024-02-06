@@ -19,7 +19,7 @@ public class SearchEmployee extends JFrame {
         setLayout(null);
         ID= new JLabel("Enter ID");
         Idinp = new JTextField(10);
-        msg = new JLabel("HOOO");
+        msg = new JLabel("");
         btn = new JButton("Search");
         btn.addActionListener(new ActionListener() {
             @Override
